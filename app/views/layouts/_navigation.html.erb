@@ -30,7 +30,7 @@
               <% if logged_in? && current_user.admin? %>
                 <%= link_to "Create new category", new_category_path, class: "dropdown-item" %>
               <% end %>
-              <%= link_to "View catories", categories_path, class: "dropdown-item" %>
+              <%= link_to "View categories", categories_path, class: "dropdown-item" %>
           </li>
           <% if logged_in? %>
             <li class="nav-item dropdown">
